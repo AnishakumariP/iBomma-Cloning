@@ -1,0 +1,54 @@
+body{
+    background: #1a1a1a;
+    margin: 0;
+}
+
+#header{
+    background: #303030;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+#slogan{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+}
+
+.grid-box{
+    width: 80%; /* page width 0.8*/
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    
+}
+.grid-box img{
+    width: 100%;
+    border-radius: 15px;
+    transition: 1s;  /*control animination time*/
+    
+}
+.grid-box img:hover{
+    transform: scale(1.07); /*for the zooming style*/
+    /*transform: rotate(60deg);*/
+}
+.grid-box a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.grid-box a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.grid-box span{
+    color: cyan;
+    font-size: 18px;
+}
